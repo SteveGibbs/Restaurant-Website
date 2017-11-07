@@ -14,3 +14,16 @@ function navBarFunction() {
 
 }
 
+$(document).ready(function(){
+    $('#nav-icon').click(function(){
+
+        $(this).toggleClass('open responsive');
+
+        var navigationBar = document.getElementById("myNavBar");
+        if (navigationBar.className === "nav") {
+            navigationBar.className += " responsive";
+        } else {
+            navigationBar.className = "nav";
+        }
+    });
+});
