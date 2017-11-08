@@ -177,6 +177,14 @@ h2 {
 .text-w60 {
     margin: 0 20%;
 }
+
+.col-3 {
+    margin: 0 13%;
+}
+
+.h-50 {
+    height: 50px;
+}
 .text-w80 {
     margin: 0 10%;
 }
@@ -191,6 +199,10 @@ h2 {
 
 .gap {
     margin-bottom: 5%;
+}
+
+.pad-30{
+    padding: 30px;
 }
 
 .pad-20{
@@ -249,9 +261,17 @@ li.pad-20 {
 }
 
 
+
 /*end parallax*/
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1600px) {
+    .col-3 {
+        margin: 0 8%;
+    }
+}
+
+
+    @media only screen and (max-width: 1024px) {
 
     .parallax {
         background-size: cover;
@@ -290,6 +310,9 @@ li.pad-20 {
         width: 175px;
     }
 
+    .col-3 {
+        margin: 0 5%;
+    }
 
     }
 
@@ -304,12 +327,8 @@ li.pad-20 {
         width: 125px;
         margin-left: 125px;
         margin-top: -38px;
-        padding: 0;
-        background: black;
         display: none;
-        position: absolute;
-        z-index: 999;
-        left: 0;
+
     }
 
     ul.nav.responsive li {
