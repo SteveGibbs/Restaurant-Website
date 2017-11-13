@@ -1,4 +1,4 @@
-console.log("hello world");
+console.log("what is going on");
 
 function navBarFunction() {
     var navigationBar = document.getElementById("myNavBar");
@@ -14,8 +14,14 @@ function navBarFunction() {
 
 }
 
+var x = $('div#nav-icon');
+x.onclick = function(){
+    console.log("clickety click");
+};
+
 $(document).ready(function(){
     $('#nav-icon').click(function(){
+        console.log("clicked");
 
         $(this).toggleClass('open responsive');
 

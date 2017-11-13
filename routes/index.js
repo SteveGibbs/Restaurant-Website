@@ -7,8 +7,10 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/food',  function(req, res, next){
-     res.render('food.html');
+     res.render('food.hbs');
 });
+
+
 
 
 module.exports = router;

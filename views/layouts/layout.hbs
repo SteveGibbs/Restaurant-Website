@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    {{{body}}}
+</div>
+
+{{> footer}}
+<!--jquery script inserted above body as it is used for some of the body to be contained in the body hook so it needs to be available before  -->
+<script src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+<script src="/javascripts/main.js" charset="utf-8"></script>
+
+</body>
+</html>
