@@ -2,7 +2,7 @@
     width: 30px;
     height: 20px;
     position: relative;
-    margin: 40px auto;
+    margin-left: 20px;
     -webkit-transform: rotate(0deg);
     -moz-transform: rotate(0deg);
     -o-transform: rotate(0deg);
@@ -162,6 +162,24 @@ h2 {
     color: darkslategray;
 }
 
+.inverse {
+    color: darkslategray !important;
+    padding: 10px !important;
+    margin: 20px;
+}
+
+a.inverse:hover {
+    background-color: darkslategray;
+    color: white !important;
+}
+
+footer {
+    background-color: steelblue;
+    min-height: 200px;
+}
+
+
+
 .text-left {
     text-align: justify;
 }
@@ -189,10 +207,12 @@ h2 {
     margin: 0 10%;
 }
 
-.margin-none {
-    margin: 0;
-}
+ul li.footer {
+    padding: 0;
+    margin: 0 auto;
+    width: auto;
 
+}
 .main-description{
     margin-bottom: 5%;
 }
@@ -342,8 +362,7 @@ li.pad-20 {
 
     #nav-icon {
        display: inline-block;
-        margin-left: 10px;
-    }
+         }
 
     h1 {
         font-size: 40px;
