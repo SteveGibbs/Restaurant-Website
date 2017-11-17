@@ -14,11 +14,6 @@ function navBarFunction() {
 
 }
 
-function formResponse(){
-    console.log("running");
-    var name = document.getElementById("name").value;
-    alert("Thanks "+ name + " for your enquiry.  Unfortunately the restaurant is fictitious and cannot receive any bookings.");
-}
 
 $(document).ready(function(){
     $('#nav-icon').click(function(){

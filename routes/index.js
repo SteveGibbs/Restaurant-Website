@@ -23,4 +23,11 @@ router.get('/event',  function(req, res, next){
     res.render('event.hbs', { title: 'Events at Bondi Kitchen' });
 });
 
+router.get('/music',  function(req, res, next){
+    res.render('music.hbs', { title: 'Music at Bondi Kitchen' });
+});
+router.get('/contact',  function(req, res, next){
+    res.render('contact.hbs', { title: 'Contact Us at Bondi Kitchen' });
+});
+
 module.exports = router;

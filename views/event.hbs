@@ -40,7 +40,7 @@
         <br>
         <br>
 
-        <form>
+        <form id="myForm">
             <div class="form-group">
                 <label for="name">First and Last Name</label>
                 <br>
@@ -73,8 +73,32 @@
                 <br>
             </div>
             <br>
-                <input type="submit" class="font button-round" onclick="formResponse()">
+
+                <input type="submit" class="text button-round">
         </form>
     </li>
 </ul>
 
+
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2 class="middle">Apologies from Bondi Kitchen</h2>
+        </div>
+        <div class="modal-body font middle">
+            <p>We cannot accept your enquiry.</p>
+            <p>This is a test website only and the business is not in operation</p>
+        </div>
+        <div class="modal-footer">
+            <h3 class="middle">This website is fictitious</h3>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.js"   integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="   crossorigin="anonymous"></script>
+<script src="/javascripts/form.js"></script>
