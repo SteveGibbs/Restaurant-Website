@@ -214,6 +214,10 @@ footer {
 
 }
 
+.w-500 {
+    width: 500px;
+}
+
 .h-50 {
     height: 50px;
 }
@@ -289,8 +293,8 @@ li.pad-20 {
 }
 
 #map{
-    height: 540px;
-    width: 540px;
+    height: 500px;
+    width: 500px;
 }
 .button-round:hover {
     color: white;
@@ -324,6 +328,12 @@ li.pad-20 {
 
 .music {
     background: url("../images/concert3.jpg") fixed;
+    position: relative;
+
+}
+
+.contact {
+    background: url("../images/bar_960_720.jpg") fixed;
     position: relative;
 
 }
