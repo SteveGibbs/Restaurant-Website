@@ -355,7 +355,7 @@ li.pad-20 {
 }
 
 .parallax-second {
-    background: url("../images/sardines_960_720.jpg") fixed no-repeat;
+    background: url("../images/sardines_960_720.jpg") fixed;
     position: relative;
 
 }
