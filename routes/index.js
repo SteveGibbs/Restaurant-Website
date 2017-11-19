@@ -29,5 +29,12 @@ router.get('/music',  function(req, res, next){
 router.get('/contact',  function(req, res, next){
     res.render('contact.hbs', { title: 'Contact Us at Bondi Kitchen' });
 });
+router.get('/wine',  function(req, res, next){
+    res.render('wine.hbs', { title: 'Our Wine List' });
+});
+router.get('/beer',  function(req, res, next){
+    res.render('beer.hbs', { title: 'Beer List' });
+});
+
 
 module.exports = router;

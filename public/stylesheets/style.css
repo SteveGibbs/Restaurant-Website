@@ -338,6 +338,17 @@ li.pad-20 {
 
 }
 
+.wine {
+    background: url("../images/barrel_960_720.jpg") fixed;
+    position: relative;
+
+}
+.beer {
+    background: url("../images/beer_960_720.jpg") fixed;
+    position: relative;
+
+}
+
 .parallax-inner {
     padding-top: 20%;
     padding-bottom: 10%;
