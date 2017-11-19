@@ -450,12 +450,12 @@ li.pad-20 {
     @media only screen and (max-width: 1024px) {
 
     .parallax {
-        background-size: cover;
-        }
+        background-size: 100vw;
+    }
 
 
     .parallax-second{
-        background-size: cover;
+        background-size: 100vw;
     }
 
     ul li {
@@ -503,6 +503,15 @@ li.pad-20 {
 
 
 @media only screen and (max-width: 768px) {
+
+    .parallax {
+        background-size: 100vw;
+    }
+
+
+    .parallax-second{
+        background-size: 100vw;
+    }
 
     ul.nav li {
         display: none;
