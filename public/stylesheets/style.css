@@ -309,42 +309,42 @@ li.pad-20 {
 /*start parallax*/
 
 .parallax {
-    background: url("../images/table_960_720.jpg") fixed;
+    background: url("../images/table_960_720.jpg") fixed no-repeat;
     position: relative;
 
 }
 
 .breakfast {
-    background: url("../images/pancakes-large.jpg") fixed;
+    background: url("../images/pancakes-large.jpg") fixed no-repeat;
     position: relative;
 
 }
 
 .dinner {
-    background: url("../images/charcoal_960_720.jpg") fixed;
+    background: url("../images/charcoal_960_720.jpg") fixed no-repeat;
     position: relative;
 
 }
 
 .music {
-    background: url("../images/concert3.jpg") fixed;
+    background: url("../images/concert3.jpg") fixed no-repeat;
     position: relative;
 
 }
 
 .contact {
-    background: url("../images/bar_960_720.jpg") fixed;
+    background: url("../images/bar_960_720.jpg") fixed no-repeat;
     position: relative;
 
 }
 
 .wine {
-    background: url("../images/barrel_960_720.jpg") fixed;
+    background: url("../images/barrel_960_720.jpg") fixed no-repeat;
     position: relative;
 
 }
 .beer {
-    background: url("../images/beer_960_720.jpg") fixed;
+    background: url("../images/beer_960_720.jpg") fixed no-repeat;
     position: relative;
 
 }
@@ -355,7 +355,7 @@ li.pad-20 {
 }
 
 .parallax-second {
-    background: url("../images/sardines_960_720.jpg") fixed;
+    background: url("../images/sardines_960_720.jpg") fixed no-repeat;
     position: relative;
 
 }
@@ -488,7 +488,7 @@ li.pad-20 {
     }
 
     .w-225 {
-        width: 150px;
+        width: 175px;
     }
 
     .col-3 {
