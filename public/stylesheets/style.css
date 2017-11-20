@@ -510,11 +510,9 @@ li.pad-20 {
     .parallax-index {
         min-height: 100vh;
         background-size: cover;
-        background: url("../images/table_960_720.jpg") 30% fixed no-repeat;
     }
 
     .parallax-second {
-        background: url("../images/sardines_960_720.jpg") 60% fixed;
     }
 
     ul.nav li {
