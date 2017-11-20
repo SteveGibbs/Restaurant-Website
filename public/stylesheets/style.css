@@ -598,3 +598,42 @@ li.pad-20 {
     }
 }
 
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: .75em;
+}
+
+p {
+    margin: 1.5em;
+    max-width: 48em;
+}
+
+.parallax {
+    padding-bottom: 40%;
+    overflow: hidden;
+    position: relative;
+}
+
+.parallax__image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
