@@ -509,7 +509,9 @@ li.pad-20 {
 
     .parallax-index {
         min-height: 100vh;
+        -webkit-background-size: cover;
         background-size: cover;
+        background-attachment: scroll;
     }
 
     .parallax-second {
