@@ -515,6 +515,7 @@ li.pad-20 {
     }
 
     .parallax-second {
+        background-attachment: scroll;
     }
 
     ul.nav li {
