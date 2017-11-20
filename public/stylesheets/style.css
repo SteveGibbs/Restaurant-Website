@@ -458,6 +458,7 @@ li.pad-20 {
 
     .parallax-second{
         background-size: cover;
+        background-attachment: scroll;
 
     }
 
