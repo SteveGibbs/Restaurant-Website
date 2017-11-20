@@ -328,6 +328,10 @@ html {
     overflow: hidden;
 }
 
+.parallax-second {
+    height: 60%;
+}
+
 .parallax__image {
     position: absolute;
     top: 0;
@@ -487,11 +491,7 @@ html {
     li.pad-20 {
         padding: 10px;
     }
-
-    .w-250 {
-        width: 175px;
-    }
-
+    
     .w-225 {
         width: 200px;
     }
@@ -546,6 +546,11 @@ html {
     .text, .font {
         font-size: 14px;
     }
+
+    .main-title {
+        margin-top: 30%;
+    }
+
     .image-small {
         width: 120px;
         height: 120px;
@@ -553,7 +558,7 @@ html {
 
 
     .image-parallax {
-        height: 150vh;
+        width: auto;
     }
 
     li.pad-20 {
