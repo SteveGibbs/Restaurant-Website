@@ -511,9 +511,11 @@ li.pad-20 {
         min-height: 100vh;
         -webkit-background-size: cover;
         background-size: cover;
+        background-attachment: scroll;
     }
 
-    .parallax-second {
+    .parallax-second{
+    background-attachment: scroll;
     }
 
     ul.nav li {
