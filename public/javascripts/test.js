@@ -1,6 +1,7 @@
 /**
  * Created by carolineperier on 20/11/2017.
  */
+//From CodePen by Captain Anonymous
 
 var images = document.querySelectorAll('.parallax__image');
 

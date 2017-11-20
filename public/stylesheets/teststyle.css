@@ -314,8 +314,23 @@ li.pad-20 {
     position: relative;
     background-size: cover;
     overflow: hidden;
-    padding-bottom: 20%;
+    padding-bottom: 100%;
 
+}
+.parallax-second {
+    background: url("../images/sardines_960_720.jpg") fixed 50% no-repeat;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 40%;
+}
+
+.parallax2 {
+    background: url("../images/sardines_960_720.jpg") fixed;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 100%;
 }
 
 .breakfast {
@@ -353,21 +368,9 @@ li.pad-20 {
 
 }
 
-.parallax-inner {
-    padding-top: 20%;
-    padding-bottom: 10%;
-}
 
-.parallax-second {
-    background: url("../images/sardines_960_720.jpg") fixed;
-    position: relative;
 
-}
 
-.parallax-inner-second {
-    padding-top: 20%;
-    padding-bottom: 10%;
-}
 
 
 
@@ -451,18 +454,8 @@ li.pad-20 {
 }
 
 
-    @media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
-    .parallax {
-        background-size: 100vw;
-    }
-
-
-    .parallax-second{
-        background-size: cover;
-        background-attachment: scroll;
-
-    }
 
     ul li {
         width: 125px;
@@ -505,21 +498,11 @@ li.pad-20 {
         margin: 0 5%;
     }
 
-    }
+}
 
 
 @media only screen and (max-width: 768px) {
 
-    .parallax-index {
-        min-height: 100vh;
-        -webkit-background-size: cover;
-        background-size: cover;
-        background-attachment: scroll;
-    }
-
-    .parallax-second{
-    background-attachment: scroll;
-    }
 
     ul.nav li {
         display: none;
@@ -543,8 +526,8 @@ li.pad-20 {
     }
 
     #nav-icon {
-       display: inline-block;
-         }
+        display: inline-block;
+    }
 
     h1 {
         font-size: 40px;
