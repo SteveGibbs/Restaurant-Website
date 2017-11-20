@@ -136,6 +136,10 @@ h4 {
     margin-top: 5%;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
 .top {
     vertical-align: top;
 }
@@ -310,11 +314,9 @@ li.pad-20 {
 
 
 .parallax {
-    background: url("../images/table_960_720.jpg") fixed no-repeat;
     position: relative;
     background-size: cover;
     overflow: hidden;
-    padding-bottom: 100%;
 
 }
 .parallax-second {
