@@ -133,11 +133,11 @@ h4 {
     font-family: "Arno Pro";
     color: white;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
-.position-absolute {
-    position: absolute;
+.position-relative {
+    position: relative;
 }
 
 .top {
@@ -311,29 +311,30 @@ li.pad-20 {
 }
 
 /*start parallax*/
+html {
+    box-sizing: border-box;
+}
 
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
 
 .parallax {
     position: relative;
     background-size: cover;
+    height: 100vh;
     overflow: hidden;
-
-}
-.parallax-second {
-    background: url("../images/sardines_960_720.jpg") fixed 50% no-repeat;
-    position: relative;
-    background-size: cover;
-    overflow: hidden;
-    padding-bottom: 40%;
 }
 
-.parallax2 {
-    background: url("../images/sardines_960_720.jpg") fixed;
-    position: relative;
-    background-size: cover;
-    overflow: hidden;
-    padding-bottom: 100%;
+.parallax__image {
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
+
+
 
 .breakfast {
     background: url("../images/pancakes-large.jpg") fixed no-repeat;
@@ -370,13 +371,10 @@ li.pad-20 {
 
 }
 
-
-
-
-
-
-
 /*end parallax*/
+
+
+
 
 /* The Modal (background) */
 .modal {
@@ -392,6 +390,7 @@ li.pad-20 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
 
 /* Modal Content */
 .modal-content {
@@ -480,6 +479,11 @@ li.pad-20 {
         height: 140px;
     }
 
+
+    .image-parallax {
+        width: 150vw;
+    }
+
     li.pad-20 {
         padding: 10px;
     }
@@ -547,6 +551,11 @@ li.pad-20 {
         height: 120px;
     }
 
+
+    .image-parallax {
+        height: 150vh;
+    }
+
     li.pad-20 {
         padding: 0;
         margin: 0 auto;
@@ -586,20 +595,7 @@ li.pad-20 {
 }
 
 
-html {
-    box-sizing: border-box;
-}
-
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
-}
 
 
 
-.parallax__image {
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+
