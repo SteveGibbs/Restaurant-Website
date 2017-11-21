@@ -586,10 +586,12 @@ html {
         height: 160px;
     }
     .w-250 {
+        min-width: 225px;
         width: 225px;
     }
 
     .w-225 {
+        min-width: 200px;
         width: 200px;
     }
 
@@ -602,6 +604,11 @@ html {
 
     .margin-responsive {
         margin-top: 10%;
+    }
+
+    #map{
+        height: 400px;
+        width: 400px;
     }
 }
 
@@ -622,6 +629,37 @@ html {
 
     .text-w60 {
         margin: 0 10%;
+    }
+
+    #map{
+        height: 260px;
+        width: 260px;
+    }
+
+    .w-500 {
+        width: 300px;
+    }
+
+    .footer-length-long{
+        min-width: 300px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .pad-30 {
+        padding: 0;
+    }
+
+    .button-round {
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
     }
 }
 
