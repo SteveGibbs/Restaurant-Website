@@ -4,7 +4,7 @@ Click to see live Project -  (https://bondikitchen.herokuapp.com/)
 
 ## Description
 A front end design for a funky restaurant website built with Node.js and Express. Incorporates
-parallax features using two different methodologies (javascript - recalculate scrolltop (works on ipad and mobile) and background fixed (css) which is problematical on mobile iOS devices but works fine on desktop.  
+parallax features using two different methodologies: (1) javascript - recalculate scrolltop (works on ipad and mobile) and (2) background fixed (css) which is problematical on mobile iOS devices but works fine on desktop.  
 
 The website has been deployed on Heroku with Node.  The website is non-commercial and purely for educational purposes only.  
 
@@ -22,7 +22,7 @@ The website has been deployed on Heroku with Node.  The website is non-commercia
 
 #### Mobile responsive
 
-- Mobile responsive - tested and verified on five devices (desktop, ipad and iphone and android mobile)).  
+- Mobile responsive - tested and verified on five devices (desktop, ipad and iphone and android mobile).  
 
 ## Technology stack
 
