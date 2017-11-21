@@ -344,41 +344,48 @@ html {
 
 .breakfast {
     background: url("../images/pancakes-large.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
 
 .lunch {
     background: url("../images/pancakes-large.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
 
 .dinner {
     background: url("../images/charcoal_960_720.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
 
 .music {
     background: url("../images/concert3.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
 
 .contact {
     background: url("../images/bar_960_720.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
 
 .wine {
     background: url("../images/barrel_960_720.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
 .beer {
     background: url("../images/beer_960_720.jpg") fixed no-repeat;
+    background-size: cover;
     position: relative;
 
 }
@@ -490,11 +497,10 @@ html {
         width: 140px;
         height: 140px;
     }
-
-
-    .image-parallax {
-        width: 150vw;
+    .image-parallax-second {
+        width: 120%;
     }
+
 
     li.pad-20 {
         padding: 10px;
@@ -569,9 +575,6 @@ html {
     }
 
 
-    .image-parallax {
-        width: auto;
-    }
 
     li.pad-20 {
         padding: 0;
@@ -579,11 +582,11 @@ html {
         height: 160px;
     }
     .w-250 {
-        width: 175px;
+        width: 225px;
     }
 
     .w-225 {
-        width: 160px;
+        width: 200px;
     }
 
     .gap {
