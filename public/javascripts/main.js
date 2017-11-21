@@ -27,7 +27,7 @@ var preloadImages =[
     '../images/dessert_960_720.jpg',
     '../images/fish_960_720.jpg',
     '../images/food.png',
-    '../images/pancake_960_720.jpg'
+    '../images/pancake_960_720.jpg',
     '../images/pancakes-large.jpg',
     '../images/sardines_960_720.jpg',
     '../images/steaktwo_960_720.jpg',
