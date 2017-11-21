@@ -36,12 +36,6 @@ router.get('/beer',  function(req, res, next){
     res.render('beer.hbs', { title: 'Beer List' });
 });
 
-router.get('/testpage',  function(req, res, next){
-    res.render('testpage.hbs', { title: 'Beer List' });
-});
 
-router.get('/testpagetwo',  function(req, res, next){
-    res.render('testpagetwo.hbs', { title: 'Beer List' });
-});
 
 module.exports = router;
