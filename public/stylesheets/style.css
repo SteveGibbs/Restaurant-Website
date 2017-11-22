@@ -612,8 +612,9 @@ html {
     }
 
     #main-image {
-        height: 350%;
-        width: 350%;
+        height: 400%;
+        width: 400%;
+        margin-left: -10%;
     }
 }
 
@@ -665,10 +666,6 @@ html {
         font-size: 12px;
         padding: 0;
         margin: 0;
-    }
-    #main-image {
-        height: 300%;
-        width: 300%;
     }
 }
 
