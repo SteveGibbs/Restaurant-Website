@@ -42,16 +42,17 @@ for (var i = 0; i < preloadImages.length; ++i) {
     //console.log(img);
 }
 
-//From Codepen by Captain Anonymous
+// Acknowledge Codepen example by Captain Anonymous
 
 var images = document.querySelectorAll('.parallax__image');
 
 function setTopOffset(image) {
-    var imageHeight = image.offsetHeight;
+    var imageHeight = image.offsetHeight; //measure of an elements CSS height including border and padding and horizontal scrollbar.
     var containerHeight = image.parentNode.offsetHeight;
-    var pageHeight = document.documentElement.clientHeight;
+    var pageHeight = document.documentElement.clientHeight; //viewable height of an element including padding but not the border or scrollbar
     var imageDistance = imageHeight - containerHeight;
     var containerTop = image.parentNode.getBoundingClientRect().top;
+    //Element.getBoundingClientRect() method returns the size of an element and its position relative to the viewport.
     var distancePercent = 0;
     var offsetTop = 0;
 
@@ -69,10 +70,14 @@ function setTopOffset(image) {
 
 function updateImages() {
     [].forEach.call(images, setTopOffset);
+    //Array put on page to give access to array prototypes such as forEach.
+    // ForEach is a function which takes a function as an input.
+    //.call is a prototype which functions have.  It will replace this with the argument we have passed it - namely setTopOffset.
+    // ie it will update images with the setTopOffset value.
 }
 
 function animate() {
-    requestAnimationFrame(animate);
+    requestAnimationFrame(animate); //tell browser that we wish to perform an animation and request browser to call a specified function to update an animation before the next repaint.
     updateImages();
 }
 
